@@ -1,7 +1,7 @@
 # 💬 Vue Online Chat
 
 [![Vue](https://img.shields.io/badge/Vue-3-4FC08D?logo=vuedotjs)](https://vuejs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-4.9+-3178C6?logo=typescript)](https://www.typescriptlang.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript)](https://www.typescriptlang.org/)
 [![Supabase](https://img.shields.io/badge/Supabase-3.0+-3ECF8E?logo=supabase)](https://supabase.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
@@ -47,7 +47,7 @@
 ## 🚀 Быстрый старт
 
 ```bash
-git clone https://github.com/huTT4/vue-kanban.git
+git clone https://github.com/huTT4/vue-online-chat.git
 
 cd vue-online-chat
 
