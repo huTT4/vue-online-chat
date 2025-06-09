@@ -33,6 +33,7 @@ const submit = async () => {
         router.push('/')
       } else {
         await auth.register(user)
+        router.push('/')
       }
       Object.assign(user, {
         email: '',

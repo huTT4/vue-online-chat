@@ -63,6 +63,11 @@ export const useAuthStore = defineStore('auth', {
         },
       })
 
+      await this.login({
+        email: user.email,
+        password: user.password,
+      })
+
       if (error) throw error
     },
   },
