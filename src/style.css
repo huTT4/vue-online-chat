@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  --background: #ffffff;
+  --border: #6b6b6b;
+
+  --scrollbarBg: #ebebeb;
+  --scrollbarColor: #4e4e4e4f;
+
+  --backroundHeader: #ffffff;
+  --borderHeader: #c2c2c2;
+  --shadowHeader: #00000047;
+
+  --messageBg: #f2f1f1;
+  --backgroundChat: #ffffff;
+  --shadowChat: #0000003e;
+  --backgroundInput: #ffffff;
+
+  --textColor: #000000;
+
+  --radius: 0.8rem;
+  --smooth: 0.4s;
+}
+
+.dark {
+  --background: #000000;
+  --border: #424242;
+
+  --scrollbarBg: #474747;
+  --scrollbarColor: #8f8f8f;
+
+  --backroundHeader: #222222;
+  --borderHeader: #222222;
+  --shadowHeader: #ffffff54;
+
+  --messageBg: #363636;
+  --backgroundChat: #212121;
+  --shadowChat: #ffffff00;
+  --backgroundInput: #303030;
+
+  --textColor: #ffffff;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: var(--background);
+  transition: var(--smooth);
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
